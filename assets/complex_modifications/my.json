@@ -1,0 +1,460 @@
+{
+  "title": "Custom Karabiner Complex Mode",
+  "rules": [
+    {
+      "description": "Preserve Escape key functionality and change input source to English",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape"
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            },
+            {
+              "select_input_source": {
+                "language": "en",
+                "input_source_id": "com.apple.keylayout.ABC"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "shift+esc to tilde+shift",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "shift"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Change right_command+lp;' to mouse movements",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": -1536
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": 1536
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": -1536
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": 1536
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Change right_command+1/2/3 to center positions of screens",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "1",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "software_function": {
+                "set_mouse_cursor_position": {
+                  "x": "50%",
+                  "y": "50%",
+                  "screen": 0
+                }
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "2",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "software_function": {
+                "set_mouse_cursor_position": {
+                  "x": "50%",
+                  "y": "50%",
+                  "screen": 1
+                }
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "3",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "software_function": {
+                "set_mouse_cursor_position": {
+                  "x": "50%",
+                  "y": "50%",
+                  "screen": 2
+                }
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Change right_command+p/] to mouse buttons",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button1"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button2"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Change left_command+lp;' to arrow keys",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Change caps lock to keyboard_fn",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "apple_vendor_top_case_key_code": "keyboard_fn"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "right_cmd + left_Control to window control",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "left_control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "apple_vendor_keyboard_key_code": "mission_control"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Open LittleArc",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "n",
+              "modifiers": [
+                "left_option",
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "title": "Razer Tartarus v2",
+  "maintainers": [
+    "rbradcurtis"
+  ],
+  "rules": [
+    {
+      "description": "Razer 01",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "1"
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 02 to pycharm terminal ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "2"
+          },
+          "to": [
+            {
+              "key_code": "F12",
+              "modifiers": [
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 03 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "3"
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 04 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "4"
+          },
+          "to": [
+            {
+              "key_code": "d",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 05 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "5"
+          },
+          "to": [
+            {
+              "key_code": "e",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 06 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "tab"
+          },
+          "to": [
+            {
+              "key_code": "f",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 07 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "q"
+          },
+          "to": [
+            {
+              "key_code": "g",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 08 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "w"
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 09 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "e"
+          },
+          "to": [
+            {
+              "key_code": "i",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 10 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "r"
+          },
+          "to": [
+            {
+              "key_code": "j",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 11 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock"
+          },
+          "to": [
+            {
+              "key_code": "k",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 12 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 13 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "s"
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 14 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "d"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 15 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 16 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "left_shift"
+          },
+          "to": [
+            {
+              "key_code": "left_control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 17 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "z"
+          },
+          "to": [
+            {
+              "key_code": "q",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 18 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "x"
+          },
+          "to": [
+            {
+              "key_code": "r",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 19 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "c"
+          },
+          "to": [
+            {
+              "key_code": "s",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer 20 ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar"
+          },
+          "to": [
+            {
+              "key_code": "s",
+              "modifiers": [
+                "left_shift",
+                "left_option"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer Trigger ",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "left_option"
+          },
+          "to": [
+            {
+              "key_code": "tab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer Joy up",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "up_arrow"
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x;;'": 1500
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer Joy down",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "down_arrow"
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "x": -1500
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer Joy left",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "left_arrow"
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": -1500
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer Joy Right",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "right_arrow"
+          },
+          "to": [
+            {
+              "mouse_key": {
+                "y": 1500
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer Joy Right+:Lshift",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "right_arrow",
+            "modifiers": [
+              "left_shift"
+            ]
+          },
+          "to": [
+            {
+              "software_function": {
+                "set_mouse_cursor_position": {
+                  "x": "50%",
+                  "y": "50%",
+                  "screen": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer x to pointbutton 1",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "x"
+          },
+          "to": [
+            {
+              "pointing_button": "button1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Razer c to pointbutton 2",
+      "manipulators": [
+        {
+          "conditions": [
+            {
+              "type": "device_if",
+              "identifiers": [
+                {
+                  "product_id": 580,
+                  "vendor_id": 5426
+                },
+                {
+                  "product_id": 555,
+                  "vendor_id": 5426
+                }
+              ]
+            }
+          ],
+          "type": "basic",
+          "from": {
+            "key_code": "c"
+          },
+          "to": [
+            {
+              "pointing_button": "button2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
